@@ -62,3 +62,27 @@ body{
     cursor: pointer;
     width: 40%;
 }
+
+h2{
+    font-family: sans-serif;
+    color: rgb(34, 53, 158);
+}
+
+@media (max-width: 500px){
+    .container{
+        width: 80%;
+        height: 300px;
+    }
+
+    .dado{
+        top: 320px;
+    }
+
+    .content h1{
+        font-size: 1.3rem;
+    }
+
+    .content p{
+        font-size: 1.7rem;
+    }
+}
